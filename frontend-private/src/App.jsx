@@ -1,7 +1,8 @@
 import React from "react";
 import Employees from "./pages/Employees";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Brands from "./pages/Brands";
+import Brands from "./pages/models";
+
 function App() {
   return (
     <>

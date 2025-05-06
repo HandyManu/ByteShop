@@ -157,17 +157,7 @@ const Brands = () => {
               )}
             </div>
             <div>
-              {activeTab === "list" && (
-                <div>
-                  <ListBrands
-                  brands={brands}
-                  loading={loading}
-                  deleteBrand={deleteBrand}
-                  updateBrands={updateBrands}
-           
-                  />
-                </div>
-              )}
+
               {activeTab === "trabajo" && (
                 <div>
                   <h1>
